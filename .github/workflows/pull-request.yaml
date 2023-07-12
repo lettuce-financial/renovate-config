@@ -1,0 +1,17 @@
+name: Validate JSON
+on:
+  pull_request:
+
+jobs:
+  build:
+    name: Success
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install jq
+        run: |
+          sudo apt-get -qq update -y
+          sudo apt-get -qq install -y jq
+      - name: Validate JSON
+        run: |
+          jq . default.json

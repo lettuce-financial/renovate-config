@@ -1,0 +1,21 @@
+{
+  "dependencyDashboard": true,
+  "extends": [
+    "config:best-practices",
+    "config:recommended",
+    "group:nodeJs",
+    "group:definitelyTyped",
+    "group:jestMonorepo",
+    "group:jestPlusTSJest",
+    "group:jestPlusTypes"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+	"boto3",
+	"botocore"
+      ],
+      "groupName": "boto"
+    }
+  ]
+}
