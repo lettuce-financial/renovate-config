@@ -16,6 +16,30 @@
 	"botocore"
       ],
       "groupName": "boto"
+    },
+    {
+      "matchPackageNames": [
+	"pydantic",
+	"pydantic_core",
+	"pydantic-core",
+	"pydantic-settings"
+      ],
+      "groupName": "pydantic"
+    },
+    {
+      "matchPackageNames": [
+	"fastapi",
+	"starlette",
+	"uvicorn"
+      ],
+      "groupName": "fastapi"
+    },
+    {
+      "matchPackageNames": [
+	"requests",
+	"urllib3"
+      ],
+      "groupName": "requests"
     }
   ]
 }
