@@ -41,5 +41,8 @@
       ],
       "groupName": "requests"
     }
-  ]
+  ],
+  "pyenv": {
+    "enabled": false
+  }
 }
