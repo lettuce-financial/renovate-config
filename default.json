@@ -9,6 +9,11 @@
     "group:jestPlusTSJest",
     "group:jestPlusTypes"
   ],
+  "ignoreDeps": [
+    "pydantic_core",
+    "pydantic-core",
+    "starlette"
+  ],
   "packageRules": [
     {
       "matchPackageNames": [
@@ -20,8 +25,6 @@
     {
       "matchPackageNames": [
 	"pydantic",
-	"pydantic_core",
-	"pydantic-core",
 	"pydantic-settings"
       ],
       "groupName": "pydantic"
