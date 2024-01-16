@@ -12,7 +12,8 @@
   "ignoreDeps": [
     "pydantic_core",
     "pydantic-core",
-    "starlette"
+    "starlette",
+    "vite-tsconfig-paths"
   ],
   "packageRules": [
     {
