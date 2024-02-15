@@ -13,6 +13,7 @@
     "pydantic_core",
     "pydantic-core",
     "starlette",
+    "vite",
     "vite-tsconfig-paths"
   ],
   "packageRules": [
