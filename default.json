@@ -10,13 +10,21 @@
     "group:jestPlusTypes"
   ],
   "ignoreDeps": [
-    "pydantic_core",
     "pydantic-core",
     "starlette",
+    "urllib3",
+    "uvicorn",
     "vite",
     "vite-tsconfig-paths"
   ],
+  "minimumReleaseAge": "1 day",
   "packageRules": [
+    {
+      "matchPackagePrefixes": [
+	"kale"
+      ],
+      "minimumReleaseAge": "0 days"
+    },
     {
       "matchPackageNames": [
 	"boto3",
@@ -26,17 +34,19 @@
     },
     {
       "matchPackageNames": [
-	"pydantic",
-	"pydantic-settings"
-      ],
-      "groupName": "pydantic"
-    },
-    {
-      "matchPackageNames": [
 	"fastapi",
+	"starlette",
 	"uvicorn"
       ],
       "groupName": "fastapi"
+    },
+    {
+      "matchPackageNames": [
+	"pydantic",
+	"pydantic-core",
+	"pydantic-settings"
+      ],
+      "groupName": "pydantic"
     },
     {
       "matchPackageNames": [
