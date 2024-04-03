@@ -14,9 +14,7 @@
     "pydantic-core",
     "starlette",
     "urllib3",
-    "uvicorn",
-    "vite",
-    "vite-tsconfig-paths"
+    "uvicorn"
   ],
   "minimumReleaseAge": "1 day",
   "packageRules": [
