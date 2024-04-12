@@ -12,6 +12,7 @@
   "ignoreDeps": [
     "kong",
     "pydantic-core",
+    "pydantic_core",
     "starlette",
     "urllib3",
     "uvicorn"
