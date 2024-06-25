@@ -20,6 +20,10 @@
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
+      "matchPackageNames": ["twine"],
+      "allowedVersions": "!/^5.1.0$/"
+    },
+    {
       "matchPackagePrefixes": [
 	"kale"
       ],
