@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "ignoreDeps": ["@mui/x-data-grid"],
   "extends": [
     "local>lettuce-financial/renovate-config"
   ]

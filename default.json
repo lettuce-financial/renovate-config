@@ -15,7 +15,8 @@
     "pydantic_core",
     "starlette",
     "urllib3",
-    "uvicorn"
+    "uvicorn",
+    "@mui/x-data-grid"
   ],
   "minimumReleaseAge": "1 day",
   "packageRules": [
