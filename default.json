@@ -21,6 +21,10 @@
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
+      "matchPackageNames": ["react-router-dom"],
+      "allowedVersions": "<7.0.0"
+    },
+    {
       "matchPackageNames": ["twine"],
       "allowedVersions": "!/^5.1.0$/"
     },
