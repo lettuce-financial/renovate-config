@@ -16,7 +16,9 @@
     "starlette",
     "urllib3",
     "uvicorn",
-    "@mui/x-data-grid"
+    "@mui/x-data-grid",
+    "@mui/x-data-grid-pro",
+    "@mui/x-license"
   ],
   "minimumReleaseAge": "1 day",
   "packageRules": [
