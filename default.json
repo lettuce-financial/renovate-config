@@ -23,6 +23,14 @@
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
+      "matchPackageNames": ["react"],
+      "allowedVersions": "<19.0.0"
+    },
+    {
+      "matchPackageNames": ["react-dom"],
+      "allowedVersions": "<19.0.0"
+    },
+    {
       "matchPackageNames": ["react-router-dom"],
       "allowedVersions": "<7.0.0"
     },
