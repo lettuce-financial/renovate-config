@@ -23,6 +23,12 @@
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
+      "matchPackageNames": [
+	"lettuce-financial/actions"
+      ],
+      "minimumReleaseAge": "0 days"
+    },
+    {
       "matchPackageNames": ["react"],
       "allowedVersions": "<19.0.0"
     },
