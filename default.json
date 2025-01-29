@@ -59,6 +59,13 @@
     },
     {
       "matchPackageNames": [
+	"isort",
+	"flake8-isort"
+      ],
+      "groupName": "isort"
+    },
+    {
+      "matchPackageNames": [
 	"fastapi",
 	"starlette",
 	"uvicorn"
