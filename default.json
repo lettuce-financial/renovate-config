@@ -41,6 +41,10 @@
       "allowedVersions": "<7.0.0"
     },
     {
+      "matchPackageNames": ["tailwindcss"],
+      "allowedVersions": "<4.0.0"
+    },
+    {
       "matchPackageNames": ["twine"],
       "allowedVersions": "!/^5.1.0$/"
     },
