@@ -63,6 +63,13 @@
     },
     {
       "matchPackageNames": [
+	"gql",
+	"graphql-core"
+      ],
+      "groupName": "graphql"
+    },
+    {
+      "matchPackageNames": [
 	"isort",
 	"flake8-isort"
       ],
