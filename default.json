@@ -61,7 +61,8 @@
     {
       "matchPackageNames": [
 	"boto3",
-	"botocore"
+	"botocore",
+	"s3transfer"
       ],
       "groupName": "boto"
     },
