@@ -98,6 +98,13 @@
     },
     {
       "matchPackageNames": [
+	"pydantic-ai-slim",
+	"pydantic-graph"
+      ],
+      "groupName": "pydantic-ai"
+    },
+    {
+      "matchPackageNames": [
 	"requests",
 	"urllib3"
       ],
