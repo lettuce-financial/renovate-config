@@ -43,10 +43,6 @@
       "allowedVersions": "<19.0.0"
     },
     {
-      "matchPackageNames": ["react-router-dom"],
-      "allowedVersions": "<7.0.0"
-    },
-    {
       "matchPackageNames": ["tailwindcss"],
       "allowedVersions": "<4.0.0"
     },
