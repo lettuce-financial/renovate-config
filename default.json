@@ -117,9 +117,6 @@
     "enabled": false
   },
   "allowedEnv": [
-    "UV_INDEX_JFROG_PASWORD",
-    "UV_INDEX_JFROG_USERNAME",
-    "UV_EXTRA_INDEX_URL",
     "PYX_API_KEY"
   ]
 }
