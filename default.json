@@ -111,6 +111,13 @@
 	"urllib3"
       ],
       "groupName": "requests"
+    },
+    {
+      "matchPackageNames": [
+	"fastmcp",
+	"mcp"
+      ],
+      "groupName": "fastmcp"
     }
   ],
   "pyenv": {
