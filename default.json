@@ -123,7 +123,7 @@
       "matchPackageNames": [
         "actions/checkout"
       ],
-      "allowedVersions": "!/v6.0.0/"
+      "allowedVersions": "!/6.0.0/"
     }
   ],
   "pyenv": {
