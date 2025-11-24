@@ -118,6 +118,12 @@
 	"mcp"
       ],
       "groupName": "fastmcp"
+    },
+    {
+      "matchPackageNames": [
+        "actions/checkout"
+      ],
+      "allowedVersions": "!/v6.0.0/"
     }
   ],
   "pyenv": {
