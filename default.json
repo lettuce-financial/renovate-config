@@ -1,5 +1,6 @@
 {
   "dependencyDashboard": true,
+  "dependencyDashboardReportAbandonment": false,
   "extends": [
     "config:best-practices",
     "config:recommended",
