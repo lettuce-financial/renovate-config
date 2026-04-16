@@ -36,6 +36,10 @@
       "minimumReleaseAge": "0 days"
     },
     {
+      "matchPackageNames": ["node"],
+      "allowedVersions": "<24.15.0"
+    },
+    {
       "matchPackageNames": ["react"],
       "allowedVersions": "<19.0.0"
     },
