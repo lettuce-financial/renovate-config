@@ -135,7 +135,6 @@
     "enabled": false
   },
   "allowedEnv": [
-    "PYX_API_KEY",
     "UV_INDEX_CLOUDSMITH_PASSWORD",
     "UV_INDEX_CLOUDSMITH_USERNAME"
   ]
