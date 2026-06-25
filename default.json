@@ -57,7 +57,8 @@
     },
     {
       "matchPackageNames": ["duckdb"],
-      "minimumReleaseAge": "7 days"
+      "minimumReleaseAge": "7 days",
+      "allowedVersions": "<1.5.4"
     },
     {
       "matchPackagePrefixes": [
