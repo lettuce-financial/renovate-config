@@ -83,6 +83,13 @@
     },
     {
       "matchPackageNames": [
+	"httpcore2",
+	"httpx2"
+      ],
+      "groupName": "httpx2"
+    },
+    {
+      "matchPackageNames": [
 	"isort",
 	"flake8-isort"
       ],
