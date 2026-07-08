@@ -75,6 +75,13 @@
     },
     {
       "matchPackageNames": [
+	"fastmcp",
+	"fastmcp-slim"
+      ],
+      "groupName": "fastmcp"
+    },
+    {
+      "matchPackageNames": [
 	"gql",
 	"graphql-core"
       ],
