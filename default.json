@@ -36,10 +36,6 @@
       "minimumReleaseAge": "0 days"
     },
     {
-      "matchPackageNames": ["apache/apisix"],
-      "allowedVersions": "<3.17.0"
-    },
-    {
       "matchPackageNames": ["node"],
       "allowedVersions": "=7016825"
     },
