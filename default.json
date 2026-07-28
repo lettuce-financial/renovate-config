@@ -111,6 +111,13 @@
     },
     {
       "matchPackageNames": [
+	"polars",
+	"polars-runtime-32"
+      ],
+      "groupName": "polars"
+    },
+    {
+      "matchPackageNames": [
 	"pydantic",
 	"pydantic-core",
 	"pydantic-settings"
