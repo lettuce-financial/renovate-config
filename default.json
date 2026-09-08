@@ -76,7 +76,9 @@
     {
       "matchPackageNames": [
 	"fastmcp",
-	"fastmcp-slim"
+	"fastmcp-slim",
+	"mcp",
+	"mcp-types"
       ],
       "groupName": "fastmcp"
     },
@@ -137,13 +139,6 @@
 	"urllib3"
       ],
       "groupName": "requests"
-    },
-    {
-      "matchPackageNames": [
-	"fastmcp",
-	"mcp"
-      ],
-      "groupName": "fastmcp"
     },
     {
       "matchPackageNames": [
