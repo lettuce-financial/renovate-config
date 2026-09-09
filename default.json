@@ -128,7 +128,9 @@
     },
     {
       "matchPackageNames": [
+	"pydantic-ai",
 	"pydantic-ai-slim",
+	"pydantic-evals",
 	"pydantic-graph"
       ],
       "groupName": "pydantic-ai"
