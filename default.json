@@ -151,9 +151,5 @@
   ],
   "pyenv": {
     "enabled": false
-  },
-  "allowedEnv": [
-    "UV_INDEX_CLOUDSMITH_PASSWORD",
-    "UV_INDEX_CLOUDSMITH_USERNAME"
-  ]
+  }
 }
