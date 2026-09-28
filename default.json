@@ -25,120 +25,149 @@
   "packageRules": [
     {
       "matchCategories": [
-	"js"
+        "js"
       ],
       "minimumReleaseAge": "7 days"
     },
     {
       "matchPackageNames": [
-	"lettuce-financial/actions"
-      ],
-      "minimumReleaseAge": "0 days"
-    },
-    {
-      "matchPackageNames": ["node"],
-      "allowedVersions": "=7016825"
-    },
-    {
-      "matchPackageNames": ["react"],
-      "allowedVersions": "<19.0.0"
-    },
-    {
-      "matchPackageNames": ["react-dom"],
-      "allowedVersions": "<19.0.0"
-    },
-    {
-      "matchPackageNames": ["tailwindcss"],
-      "allowedVersions": "<4.0.0"
-    },
-    {
-      "matchPackageNames": ["twine"],
-      "allowedVersions": "!/^5.1.0$/"
-    },
-    {
-      "matchPackageNames": ["duckdb"],
-      "minimumReleaseAge": "14 days"
-    },
-    {
-      "matchPackagePrefixes": [
-	"kale"
+        "lettuce-financial/actions"
       ],
       "minimumReleaseAge": "0 days"
     },
     {
       "matchPackageNames": [
-	"boto3",
-	"botocore",
-	"s3transfer"
+        "node"
+      ],
+      "allowedVersions": "=7016825"
+    },
+    {
+      "matchPackageNames": [
+        "react"
+      ],
+      "allowedVersions": "<19.0.0"
+    },
+    {
+      "matchPackageNames": [
+        "react-dom"
+      ],
+      "allowedVersions": "<19.0.0"
+    },
+    {
+      "matchPackageNames": [
+        "tailwindcss"
+      ],
+      "allowedVersions": "<4.0.0"
+    },
+    {
+      "matchPackageNames": [
+        "twine"
+      ],
+      "allowedVersions": "!/^5.1.0$/"
+    },
+    {
+      "matchPackageNames": [
+        "duckdb"
+      ],
+      "minimumReleaseAge": "14 days"
+    },
+    {
+      "matchPackagePrefixes": [
+        "kale"
+      ],
+      "minimumReleaseAge": "0 days"
+    },
+    {
+      "matchPackageNames": [
+        "boto3",
+        "botocore",
+        "s3transfer"
       ],
       "groupName": "boto"
     },
     {
       "matchPackageNames": [
-	"fastmcp",
-	"fastmcp-slim",
-	"mcp",
-	"mcp-types"
+        "fastmcp",
+        "fastmcp-slim",
+        "mcp",
+        "mcp-types"
       ],
       "groupName": "fastmcp"
     },
     {
       "matchPackageNames": [
-	"gql",
-	"graphql-core"
+        "gql",
+        "graphql-core"
       ],
       "groupName": "graphql"
     },
     {
       "matchPackageNames": [
-	"httpcore2",
-	"httpx2"
+        "httpcore2",
+        "httpx2"
       ],
       "groupName": "httpx2"
     },
     {
       "matchPackageNames": [
-	"isort",
-	"flake8-isort"
+        "isort",
+        "flake8-isort"
       ],
       "groupName": "isort"
     },
     {
       "matchPackageNames": [
-	"fastapi",
-	"starlette",
-	"uvicorn"
+        "fastapi",
+        "starlette",
+        "uvicorn"
       ],
       "groupName": "fastapi"
     },
     {
       "matchPackageNames": [
-	"polars",
-	"polars-runtime-32"
+        "opentelemetry-api",
+        "opentelemetry-exporter-http-transport",
+        "opentelemetry-exporter-otlp-common",
+        "opentelemetry-exporter-otlp-proto-common",
+        "opentelemetry-exporter-otlp-proto-http",
+        "opentelemetry-instrumentation",
+        "opentelemetry-instrumentation-asgi",
+        "opentelemetry-instrumentation-starlette",
+        "opentelemetry-proto",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-sdk",
+        "opentelemetry-util-http"
+      ],
+      "groupName": "opentelemetry"
+    },
+    {
+      "matchPackageNames": [
+        "polars",
+        "polars-runtime-32"
       ],
       "groupName": "polars"
     },
     {
       "matchPackageNames": [
-	"pydantic",
-	"pydantic-core",
-	"pydantic-settings"
+        "pydantic",
+        "pydantic-core",
+        "pydantic-settings"
       ],
       "groupName": "pydantic"
     },
     {
       "matchPackageNames": [
-	"pydantic-ai",
-	"pydantic-ai-slim",
-	"pydantic-evals",
-	"pydantic-graph"
+        "pydantic-ai",
+        "pydantic-ai-slim",
+        "pydantic-evals",
+        "pydantic-graph"
       ],
       "groupName": "pydantic-ai"
     },
     {
       "matchPackageNames": [
-	"requests",
-	"urllib3"
+        "requests",
+        "urllib3"
       ],
       "groupName": "requests"
     },
