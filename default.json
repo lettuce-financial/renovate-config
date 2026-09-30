@@ -118,6 +118,7 @@
     {
       "matchPackageNames": [
         "fastapi",
+        "kale-fastapi",
         "starlette",
         "uvicorn"
       ],
