@@ -122,7 +122,8 @@
         "starlette",
         "uvicorn"
       ],
-      "groupName": "fastapi"
+      "groupName": "fastapi",
+      "minimumReleaseAge": "0 days"
     },
     {
       "matchPackageNames": [
