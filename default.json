@@ -66,9 +66,11 @@
       "allowedVersions": "!/^5.1.0$/"
     },
     {
+      "description": "MotherDuck does not support DuckDB 2.x yet (LTC-11668). Remove allowedVersions once it does.",
       "matchPackageNames": [
         "duckdb"
       ],
+      "allowedVersions": "<2",
       "minimumReleaseAge": "14 days"
     },
     {
