@@ -10,6 +10,20 @@
     "group:jestPlusTSJest",
     "group:jestPlusTypes"
   ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Keep uv current where a workflow passes it to lettuce-financial/actions' python/setup-uv (`uv-version: \"X.Y.Z\"`). The org's allowed actions exclude astral-sh/setup-uv, so uv is installed with pip at the version the caller names, and Renovate bumps it in the caller's workflow, with no actions release in between (LTC-11993).",
+      "managerFilePatterns": [
+        "/(^|/)\\.github/workflows/[^/]+\\.ya?ml$/"
+      ],
+      "matchStrings": [
+        "uv-version:\\s*[\"']?(?<currentValue>\\d+\\.\\d+\\.\\d+)[\"']?"
+      ],
+      "depNameTemplate": "uv",
+      "datasourceTemplate": "pypi"
+    }
+  ],
   "ignoreDeps": [
     "kong",
     "pydantic-core",
